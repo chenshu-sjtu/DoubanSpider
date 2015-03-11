@@ -2,7 +2,7 @@
 DoubanSpider
 ============
 
-This is a scrapy-based, lightweight web-spider.
+This is a Scrapy-based, lightweight web-spider.
 
 It can crawl some interesting materials from douban(豆瓣, http://www.douban.com).
 
@@ -68,8 +68,7 @@ douban has some anti-crawler-strategies, so try to be as polite as possible.
   DOWNLOAD_DELAY = 1.0
   ```
   
-  
-2. Turn down the cookies.
+2. Turn off the cookies.
   ```python
   # DoubanSpider/settings.py
   COOKIES_ENABLED = False
