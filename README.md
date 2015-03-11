@@ -7,17 +7,17 @@ This is a Scrapy-based, lightweight web-spider.
 It can crawl some interesting materials from douban(豆瓣, http://www.douban.com).
 
 Requirements
-============
+------------
 
 * Scrapy (`https://github.com/scrapy/scrapy`)
 
 Install
-=======
+-------
 
 * `git clone git@github.com:chenshu-sjtu/DoubanSpider.git`
 
 Usage Example
-=====
+-------------
 
 * collect all movies
 ```bash
@@ -27,7 +27,7 @@ scrapy crawl movie -o movies.csv -t csv
 when it finished (which may take some time), all movie infos will be stored into a .csv file.
 
 How to customize it?
-====================
+--------------------
 
 1. Define the structure of items to be scraped in `DoubanSpider/items.py`.
   ```python
@@ -58,7 +58,7 @@ How to customize it?
 You can find a more detailed documentation at http://scrapy.org/doc/ 
 
 How to avoid being BANNED?
-==========================
+--------------------------
 
 douban has some anti-crawler-strategies, so try to be as polite as possible.
 
