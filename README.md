@@ -75,7 +75,7 @@ douban has some anti-crawler-strategies, so try to be as polite as possible.
   ```
   
 3. Rotate your USER-AGENTs.
-  * in `Douban/agents.py`, you can find a very long list of available agents.
+  * in `DoubanSpider/agents.py`, you can find a very long list of available agents.
   * use a different USER-AGENT in http-header when you lunch a new request.
 
     ```python
